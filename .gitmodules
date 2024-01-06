@@ -1,3 +1,6 @@
 [submodule "myblog/themes/d3c3nt"]
 	path = myblog/themes/d3c3nt
 	url = git://git.figbert.com/d3c3nt.git
+[submodule "myblog/themes/themes/juice"]
+	path = myblog/themes/themes/juice
+	url = https://github.com/huhu/juice
