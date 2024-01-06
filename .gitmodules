@@ -1,0 +1,3 @@
+[submodule "myblog/themes/d3c3nt"]
+	path = myblog/themes/d3c3nt
+	url = git://git.figbert.com/d3c3nt.git
