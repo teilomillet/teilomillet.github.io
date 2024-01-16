@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>prompt on Ahyo</title>
+    <title>prompt on Teïlo Millet</title>
     <link>https://teilomillet.github.io/tags/prompt/</link>
-    <description>Recent content in prompt on Ahyo</description>
+    <description>Recent content in prompt on Teïlo Millet</description>
     <generator>Hugo -- gohugo.io</generator>
       <language>fr-fr</language>
       <lastBuildDate>Mon, 08 Jan 2024 13:00:00 +0100</lastBuildDate><atom:link href="https://teilomillet.github.io/tags/prompt/index.xml" rel="self" type="application/rss+xml" />
@@ -108,13 +108,13 @@ En combinant ces techniques, on peut obtenir des réponses satisfaisantes et per
   &lt;div class=&#34;highlight-toolbar&#34;&gt;
     &lt;span class=&#34;item&#34;&gt;
       &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;bash&lt;/span&gt;
     &lt;/span&gt;
 
 
     &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;User: Quelle est la capitale de la France ?
-System: La capitale de la France est Paris.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;User: Quelle est la capitale de la France ?
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System: La capitale de la France est Paris.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Cette technique atteint rapidement sa limite lorsqu’elle est posée sur des sujets plus complexe. &lt;a href=&#34;https://arxiv.org/pdf/2109.01652.pdf&#34;&gt;Le fine-tuning peux améliorer les résultats de cette technique.&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;few-shot-learning-question-avec-exemples&#34;&gt;
@@ -127,20 +127,20 @@ System: La capitale de la France est Paris.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &lt;div class=&#34;highlight-toolbar&#34;&gt;
     &lt;span class=&#34;item&#34;&gt;
       &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;bash&lt;/span&gt;
     &lt;/span&gt;
 
 
     &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;User: 
-Q: Capitale de l&amp;#39;Allemagne ?
-R: Berlin
-Q: Capitale des Pays-Bas ?
-R: Amsterdam
-Q: Capital de la France ?
-R:
-
-Sytem: Paris&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;User: 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Q: Capitale de l&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;#39;&lt;/span&gt;Allemagne ?
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;R: Berlin
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Q: Capitale des Pays-Bas ?
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;R: Amsterdam
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Q: Capital de la France ?
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;R:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Sytem: Paris&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.promptingguide.ai/techniques/fewshot&#34;&gt;Cette technique aussi connait ses limites, notamment sur des questions liées au raisonnement du chatbot.&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;chain-of-thought-étape-par-étape&#34;&gt;
@@ -154,21 +154,21 @@ Sytem: Paris&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &lt;div class=&#34;highlight-toolbar&#34;&gt;
     &lt;span class=&#34;item&#34;&gt;
       &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;bash&lt;/span&gt;
     &lt;/span&gt;
 
 
     &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;User:
-Q: S&amp;#39;il y a 3 voitures dans le parking et que 2 nouvelles voitures arrivent, combien de voiture sont dans le parking ?
-R: Il y a 3 voitures dans le parking, 2 voitures arrivent. 3 + 2 = 5 voitures. La réponse est 5.
-
-Q: Les poules de Jean pondent 16 oeufs par jour. Jean mange trois oeufs chaque matin et il fait aussi des crêpes avec quatre autres. Il vend le reste des oeufs pour 0,25€ l&amp;#39;oeuf. Combien gagne-t-il chaque jour ?
-
-System: 
-Les poules de Jean pondent 16 œufs par jour. Jean en mange 3 chaque matin et en utilise 4 pour faire des crêpes. Par conséquent, il lui reste 16 - 3 - 4 = 9 œufs qu&amp;#39;il peut vendre.
-
-Si Jean vend ses 9 œufs pour 0,25 € l&amp;#39;œuf, il gagnera 9 * 0,25 = 2,25 € chaque jour.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;User:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Q: S&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;il y a 3 voitures dans le parking et que 2 nouvelles voitures arrivent, combien de voiture sont dans le parking ?
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;R: Il y a 3 voitures dans le parking, 2 voitures arrivent. 3 + 2 = 5 voitures. La réponse est 5.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;Q: Les poules de Jean pondent 16 oeufs par jour. Jean mange trois oeufs chaque matin et il fait aussi des crêpes avec quatre autres. Il vend le reste des oeufs pour 0,25€ l&amp;#39;&lt;/span&gt;oeuf. Combien gagne-t-il chaque jour ?
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System: 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Les poules de Jean pondent &lt;span style=&#34;color:#ae81ff&#34;&gt;16&lt;/span&gt; œufs par jour. Jean en mange &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; chaque matin et en utilise &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt; pour faire des crêpes. Par conséquent, il lui reste &lt;span style=&#34;color:#ae81ff&#34;&gt;16&lt;/span&gt; - &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; - 4 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;9&lt;/span&gt; œufs qu&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;il peut vendre.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;Si Jean vend ses 9 œufs pour 0,25 € l&amp;#39;&lt;/span&gt;œuf, il gagnera &lt;span style=&#34;color:#ae81ff&#34;&gt;9&lt;/span&gt; * 0,25 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 2,25 € chaque jour.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Il est aussi possible d’améliorer les réponses de la technique Zero-shot Learning en ajoutant à la fin de la question: “&lt;a href=&#34;https://openreview.net/pdf?id=e2TBb5y0yFf&#34;&gt;pense étape par étape&lt;/a&gt;” et ainsi faire un Zéro-shot Learning-CoT.&lt;/p&gt;
 
 &lt;h2 id=&#34;tree-of-thoughtsarbre-de-pensée&#34;&gt;

@@ -1,30 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-<title>Very Sexy Prompt :: Ahyo</title>
+<title>Very Sexy Prompt :: Teïlo Millet</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="TL;DR Il existe plusieurs techniques pour optimiser les prompts et améliorer la véracité des réponses.
-Les techniques comprennent le fine-tuning, le zero-shot learning, le few-shot learning, le chain of thought, et le RCI (Critique).
-Faire appel à un expert peut également améliorer les réponses fournies par le modèle.
-En combinant ces techniques, on peut obtenir des réponses satisfaisantes et performantes, mais il n&amp;rsquo;y a pas de prompt parfait pour toutes les demandes." />
+<meta name="description" content="Ou comment poser des questions à un chatbot. (Prompt Engineering)" />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="https://teilomillet.github.io/posts/very-sexy-prompt/" />
 <meta property="og:locale" content="en" />
-<meta property="og:title" content="Very Sexy Prompt :: Ahyo" />
-<meta property="og:description" content="TL;DR Il existe plusieurs techniques pour optimiser les prompts et améliorer la véracité des réponses.
-Les techniques comprennent le fine-tuning, le zero-shot learning, le few-shot learning, le chain of thought, et le RCI (Critique).
-Faire appel à un expert peut également améliorer les réponses fournies par le modèle.
-En combinant ces techniques, on peut obtenir des réponses satisfaisantes et performantes, mais il n&amp;rsquo;y a pas de prompt parfait pour toutes les demandes." />
+<meta property="og:title" content="Very Sexy Prompt :: Teïlo Millet" />
+<meta property="og:description" content="Ou comment poser des questions à un chatbot. (Prompt Engineering)" />
   <meta property="og:type" content="article" />
     <meta property="article:section" content="" />
     <meta property="article:section" content="" />
     <meta property="article:published_time" content="2023-06-18 13:00:00 &#43;0100 &#43;0100" />
     <meta property="article:modified_time" content="2023-06-18 13:00:00 IST" />
-  <meta property="article:author" content="Ahyo" />
+  <meta property="article:author" content="Teïlo Millet" />
 <meta property="og:url" content="https://teilomillet.github.io/posts/very-sexy-prompt/" />
-<meta property="og:site_name" content="Ahyo" />
+<meta property="og:site_name" content="Teïlo Millet" />
 <meta property="og:image" content="" />
 <meta property="og:image:width" content="2048" />
 <meta property="og:image:height" content="1024" />
@@ -35,7 +29,7 @@ En combinant ces techniques, on peut obtenir des réponses satisfaisantes et per
   href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto+Slab:wght@300;400;500&family=Ubuntu+Mono:ital@0;1&display=swap"
   rel="stylesheet"
 />
-<link href="/posts/very-sexy-prompt/" rel="alternate" type="application/rss+xml" title="Ahyo" />
+<link href="/posts/very-sexy-prompt/" rel="alternate" type="application/rss+xml" title="Teïlo Millet" />
 <link rel="stylesheet" href="https://teilomillet.github.io/styles.29af3893b7938b7f6bf3bcbb6ce52dcdccce363e03bb52292e3943e8c96a5443.css" integrity="sha256-Ka84k7eTi39r87y7bOUtzczONj4Du1IpLjlD6MlqVEM=" />
 </head>
 
@@ -73,6 +67,7 @@ En combinant ces techniques, on peut obtenir des réponses satisfaisantes et per
             <time pubdate datetime="2023-06-18 13:00:00 IST"> last modified 2023-06-18 13:00:00 IST. </time>
         </address>
         <p class="post-tags">Tags:&nbsp;#<a href="https://teilomillet.github.io/tags/prompt/">prompt</a>&nbsp;#<a href="https://teilomillet.github.io/tags/prompt-engineering/">prompt engineering</a>&nbsp;#<a href="https://teilomillet.github.io/tags/chatgpt/">chatgpt</a>&nbsp;#<a href="https://teilomillet.github.io/tags/bard/">bard</a>&nbsp;#<a href="https://teilomillet.github.io/tags/cot/">CoT</a>&nbsp;</p>
+        <p class="post-description">Ou comment poser des questions à un chatbot. (Prompt Engineering)</p>
     </header>
       <div class="post-content">
         
@@ -114,13 +109,13 @@ En combinant ces techniques, on peut obtenir des réponses satisfaisantes et per
   <div class="highlight-toolbar">
     <span class="item">
       <span class="label">Lang:</span>
-      <span class="name"></span>
+      <span class="name">bash</span>
     </span>
 
 
     <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
-  </div><pre tabindex="0"><code>User: Quelle est la capitale de la France ?
-System: La capitale de la France est Paris.</code></pre></div>
+  </div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>User: Quelle est la capitale de la France ?
+</span></span><span style="display:flex;"><span>System: La capitale de la France est Paris.</span></span></code></pre></div></div>
 <p>Cette technique atteint rapidement sa limite lorsqu’elle est posée sur des sujets plus complexe. <a href="https://arxiv.org/pdf/2109.01652.pdf">Le fine-tuning peux améliorer les résultats de cette technique.</a></p>
 
 <h2 id="few-shot-learning-question-avec-exemples">
@@ -133,20 +128,20 @@ System: La capitale de la France est Paris.</code></pre></div>
   <div class="highlight-toolbar">
     <span class="item">
       <span class="label">Lang:</span>
-      <span class="name"></span>
+      <span class="name">bash</span>
     </span>
 
 
     <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
-  </div><pre tabindex="0"><code>User: 
-Q: Capitale de l&#39;Allemagne ?
-R: Berlin
-Q: Capitale des Pays-Bas ?
-R: Amsterdam
-Q: Capital de la France ?
-R:
-
-Sytem: Paris</code></pre></div>
+  </div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>User: 
+</span></span><span style="display:flex;"><span>Q: Capitale de l<span style="color:#960050;background-color:#1e0010">&#39;</span>Allemagne ?
+</span></span><span style="display:flex;"><span>R: Berlin
+</span></span><span style="display:flex;"><span>Q: Capitale des Pays-Bas ?
+</span></span><span style="display:flex;"><span>R: Amsterdam
+</span></span><span style="display:flex;"><span>Q: Capital de la France ?
+</span></span><span style="display:flex;"><span>R:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Sytem: Paris</span></span></code></pre></div></div>
 <p><a href="https://www.promptingguide.ai/techniques/fewshot">Cette technique aussi connait ses limites, notamment sur des questions liées au raisonnement du chatbot.</a></p>
 
 <h2 id="chain-of-thought-étape-par-étape">
@@ -160,21 +155,21 @@ Sytem: Paris</code></pre></div>
   <div class="highlight-toolbar">
     <span class="item">
       <span class="label">Lang:</span>
-      <span class="name"></span>
+      <span class="name">bash</span>
     </span>
 
 
     <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
-  </div><pre tabindex="0"><code>User:
-Q: S&#39;il y a 3 voitures dans le parking et que 2 nouvelles voitures arrivent, combien de voiture sont dans le parking ?
-R: Il y a 3 voitures dans le parking, 2 voitures arrivent. 3 + 2 = 5 voitures. La réponse est 5.
-
-Q: Les poules de Jean pondent 16 oeufs par jour. Jean mange trois oeufs chaque matin et il fait aussi des crêpes avec quatre autres. Il vend le reste des oeufs pour 0,25€ l&#39;oeuf. Combien gagne-t-il chaque jour ?
-
-System: 
-Les poules de Jean pondent 16 œufs par jour. Jean en mange 3 chaque matin et en utilise 4 pour faire des crêpes. Par conséquent, il lui reste 16 - 3 - 4 = 9 œufs qu&#39;il peut vendre.
-
-Si Jean vend ses 9 œufs pour 0,25 € l&#39;œuf, il gagnera 9 * 0,25 = 2,25 € chaque jour.</code></pre></div>
+  </div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>User:
+</span></span><span style="display:flex;"><span>Q: S<span style="color:#e6db74">&#39;il y a 3 voitures dans le parking et que 2 nouvelles voitures arrivent, combien de voiture sont dans le parking ?
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">R: Il y a 3 voitures dans le parking, 2 voitures arrivent. 3 + 2 = 5 voitures. La réponse est 5.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Q: Les poules de Jean pondent 16 oeufs par jour. Jean mange trois oeufs chaque matin et il fait aussi des crêpes avec quatre autres. Il vend le reste des oeufs pour 0,25€ l&#39;</span>oeuf. Combien gagne-t-il chaque jour ?
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>System: 
+</span></span><span style="display:flex;"><span>Les poules de Jean pondent <span style="color:#ae81ff">16</span> œufs par jour. Jean en mange <span style="color:#ae81ff">3</span> chaque matin et en utilise <span style="color:#ae81ff">4</span> pour faire des crêpes. Par conséquent, il lui reste <span style="color:#ae81ff">16</span> - <span style="color:#ae81ff">3</span> - 4 <span style="color:#f92672">=</span> <span style="color:#ae81ff">9</span> œufs qu<span style="color:#e6db74">&#39;il peut vendre.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Si Jean vend ses 9 œufs pour 0,25 € l&#39;</span>œuf, il gagnera <span style="color:#ae81ff">9</span> * 0,25 <span style="color:#f92672">=</span> 2,25 € chaque jour.</span></span></code></pre></div></div>
 <p>Il est aussi possible d’améliorer les réponses de la technique Zero-shot Learning en ajoutant à la fin de la question: “<a href="https://openreview.net/pdf?id=e2TBb5y0yFf">pense étape par étape</a>” et ainsi faire un Zéro-shot Learning-CoT.</p>
 
 <h2 id="tree-of-thoughtsarbre-de-pensée">
@@ -225,7 +220,7 @@ Il convient de noter que bien que les résultats annoncés par le papier cité p
         </main>
         <footer class="site-footer">
 <p class="buildinfo">
-  <time datetime="2024-01-16 15:55:51 IST">Site built on: 2024-01-16 15:55:51 IST</time>
+  <time datetime="2024-01-16 16:05:43 IST">Site built on: 2024-01-16 16:05:43 IST</time>
 </p>
 <div class="copyright">
   <p></p>
