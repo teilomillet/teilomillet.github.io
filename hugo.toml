@@ -1,0 +1,4 @@
+baseURL = 'https://teilomillet.github.io/'
+languageCode = 'fr-fr'
+title = 'Ahyo'
+theme = 'hugo-xterm'
