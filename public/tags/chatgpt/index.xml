@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chatgpt on Ahyo</title>
+    <link>https://teilomillet.github.io/tags/chatgpt/</link>
+    <description>Recent content in chatgpt on Ahyo</description>
+    <generator>Hugo -- gohugo.io</generator>
+      <language>fr-fr</language>
+      <lastBuildDate>Tue, 16 Jan 2024 11:21:00 +0100</lastBuildDate><atom:link href="https://teilomillet.github.io/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Need for Speed</title>
+      <link>https://teilomillet.github.io/posts/need-for-speed/</link>
+      <pubDate>Tue, 16 Jan 2024 11:21:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/posts/need-for-speed/</guid>
+      <description>Un des jeux vidéo qui a marqué mon enfance fut &amp;ldquo;Need for Speed&amp;rdquo;, plus particulièrement &amp;ldquo;Need for Speed: Underground (2)&amp;rdquo;. Un jeu de voiture tuning (peu réaliste) des années 2000, dont le but était simple : gagner toutes les courses. Le jeu proposait différentes sortes de courses : des épreuves en ligne droite (drag) où la vitesse maximale était déterminante, des compétitions de dérapage (drift), des courses sprints visant à rester en tête et éviter l&amp;rsquo;élimination, ainsi que les traditionnelles courses de circuit, rappelant les scènes de rue (à la Fast &amp;amp; Furious).</description>
+      <content>&lt;p&gt;Un des jeux vidéo qui a marqué mon enfance fut &amp;ldquo;Need for Speed&amp;rdquo;, plus particulièrement &amp;ldquo;&lt;a href=&#34;https://www.youtube.com/watch?v=Fen3wrNr3yk&#34;&gt;Need for Speed: Underground (2)&lt;/a&gt;&amp;rdquo;. Un jeu de voiture tuning (peu réaliste) des années 2000, dont le but était simple : gagner toutes les courses. Le jeu proposait différentes sortes de courses : des épreuves en ligne droite (drag) où la vitesse maximale était déterminante, des compétitions de dérapage (drift), des courses sprints visant à rester en tête et éviter l&amp;rsquo;élimination, ainsi que les traditionnelles courses de circuit, rappelant les scènes de rue (à la &lt;a href=&#34;https://www.youtube.com/watch?v=rMTBhu17GIE&#34;&gt;Fast &amp;amp; Furious&lt;/a&gt;). Lorsqu&amp;rsquo;une course était remportée, on gagnait soit de l&amp;rsquo;argent, soit/et une voiture. L&amp;rsquo;argent permettait de modifier notre voiture selon nos préférences : ajouter ou remplacer des pièces, changer et repeindre la carrosserie, ajouter un aileron ou des néons, etc. On pouvait installer des kits (préétablis) ou bien construire la voiture selon notre choix de pièces détachées.&lt;/p&gt;
+&lt;p&gt;Aujourd&amp;rsquo;hui, il existe un nouveau jeu, le (fine-)tuning de LLM. Le but est d’obtenir le &lt;a href=&#34;https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard&#34;&gt;meilleur score&lt;/a&gt; (sans tricher). Comme dans les courses de Need for Speed, il existe différentes &amp;lsquo;épreuves&amp;rsquo; dans le domaine des LLMs, telles que le role-playing, la compréhension de phrase, ou l&amp;rsquo;extraction de données, etc. &lt;a href=&#34;https://twitter.com/karpathy/status/1737544497016578453&#34;&gt;Bien qu’il existe des controverses et questionnements vis-à-vis de l’évaluation.&lt;/a&gt; Modifier un modèle LLM implique d&amp;rsquo;ajouter ou de remplacer des données, de changer la manière dont le modèle sélectionne ses réponses, d&amp;rsquo;intégrer une personnalité, &lt;a href=&#34;https://teilomillet.substack.com/p/pimp-my-llama&#34;&gt;et ainsi de suite..&lt;/a&gt; Comme dans le jeu, on peut soit appliquer un &lt;a href=&#34;https://github.com/cg123/mergekit&#34;&gt;kit&lt;/a&gt; prédéfini à un LLM, soit personnaliser entièrement le modèle en sélectionnant des composants spécifiques pour le fine-tuning. De plus, il est également possible de créer des &lt;a href=&#34;https://arxiv.org/abs/2401.05566&#34;&gt;modèles &amp;lsquo;dormants&amp;rsquo;&lt;/a&gt;, modifiés de manière cachée, un peu comme user les freins d&amp;rsquo;une voiture pour provoquer un accident, sujet qui sera abordé dans un futur post.&lt;/p&gt;
+&lt;p&gt;Pour gagner &amp;ldquo;Need for Speed: Underground&amp;rdquo;, il existait différentes approches. La première reposait sur un élément clé : l&amp;rsquo;expérience du joueur. Si celui-ci était habitué, il lui suffisait de maximiser la voiture la plus performante/la plus chère du moment pour obtenir les meilleures performances sur la route. Sinon, il devait persévérer jusqu&amp;rsquo;à acquérir l&amp;rsquo;expérience nécessaire. La deuxième approche consistait à se concentrer sur plusieurs voitures, chacune spécialisée dans un type de course. Ainsi, il n&amp;rsquo;était pas nécessaire d&amp;rsquo;être le meilleur pilote ; on pouvait avoir une voiture pour les courses circuits et sprint, une autre pour les courses de pointe, et une troisième pour le drift.&lt;/p&gt;
+&lt;p&gt;Avec les LLMs c’est la meme chose, un utilisateur habitué peut tirer profit du meilleur model/du plus cher, au même titre qu&amp;rsquo;un utilisateur lambda peut aisément atteindre ses objectifs avec des LLMs spécialisés. Rappelez-vous, ici, le volant, c&amp;rsquo;est le prompt. Comme expliqué dans mon précédent post, c&amp;rsquo;est la manière dont on guide le modèle (le volant) qui détermine le résultat.&lt;/p&gt;
+&lt;p&gt;Dans l&amp;rsquo;univers de Need for Speed, les garages sont essentiels, fonctionnant comme des ateliers de personnalisation et d&amp;rsquo;amélioration des voitures. Chaque garage propose un assortiment unique : pièces diverses, kits de tuning, néons, et plus. Le choix d&amp;rsquo;un garage ne repose pas tant sur la qualité de ses services, mais plutôt sur l&amp;rsquo;unicité et l&amp;rsquo;exclusivité de ses offres. Par exemple, certains kits spécifiques ne se trouvent que dans le garage X, des motifs de peinture uniques chez le garage Y, et la nitro peut être seulement au garage Z.&lt;/p&gt;
+&lt;p&gt;Parallèlement, dans le domaine des LLMs, le concept de garage sur mesure n’en est qu’au stade de l’idée.. Aujourd’hui, ce domaine est principalement investi par des passionnés et des autodidactes, qui mettent en œuvre des idées tirées de documents Arxiv. Ils sont les &amp;lsquo;préparateurs&amp;rsquo; du monde des LLMs, utilisant divers outils, souvent des librairies et scripts Python, pour peaufiner et adapter le modèle de base à des tâches spécifiques ou pour le rendre plus polyvalent. Ces préparateurs, similaires aux mécaniciens de Need for Speed, façonnent les modèles LLM pour s&amp;rsquo;adapter à une grande variété de besoins. Tout comme les garages dans le jeu offrent des options de personnalisation pour les voitures, on peut envisager que dans un futur proche, des services similaires émergeront pour les LLMs, offrant des possibilités de personnalisation et d&amp;rsquo;optimisation sur mesure pour ces modèles linguistiques.&lt;/p&gt;
+</content>
+    </item>
+    <item>
+      <title>Pimp My Llama</title>
+      <link>https://teilomillet.github.io/posts/pimp-my-llama/</link>
+      <pubDate>Mon, 08 Jan 2024 13:00:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/posts/pimp-my-llama/</guid>
+      <description>Il y a 2,5 façons prédominantes de personnaliser un LLM (Large Language Model).
+La première, la plus connue, est le “prompt engineering”. Elle l&amp;rsquo;est car quasiment tout le monde l&amp;rsquo;utilise lors d&amp;rsquo;interactions avec son LLM préféré (ChatGPT, Bard, Llama2, etc.). Chaque fois que vous “promptez” (instruisez) un LLM de vos envies, par exemple “réponds brièvement”, “tu es un expert dans…”, “explique-moi comme si j&amp;rsquo;avais 5 ans”, “réfléchis étape par étape”, … vous le personnalisez et faites usage du “prompt engineering”.</description>
+      <content>&lt;p&gt;Il y a 2,5 façons prédominantes de personnaliser un LLM (Large Language Model).&lt;/p&gt;
+&lt;p&gt;La première, la plus connue, est le “prompt engineering”. Elle l&amp;rsquo;est car quasiment tout le monde l&amp;rsquo;utilise lors d&amp;rsquo;interactions avec son LLM préféré (ChatGPT, Bard, Llama2, etc.). Chaque fois que vous “promptez” (instruisez) un LLM de vos envies, par exemple “réponds brièvement”, “tu es un expert dans…”, “explique-moi comme si j&amp;rsquo;avais 5 ans”, “réfléchis étape par étape”, … vous le personnalisez et faites usage du “prompt engineering”.&lt;/p&gt;
+&lt;p&gt;Teïlo’s Substack est une publication soutenue par les lecteurs. Pour recevoir de nouveaux Posts et soutenir mon travail, envisagez de devenir un abonné gratuit ou payant.&lt;/p&gt;
+&lt;p&gt;Il existe différentes façons d&amp;rsquo;en profiter, certaines sont connues depuis longtemps (&lt;a href=&#34;https://teilomillet.substack.com/p/very-sexy-prompt&#34;&gt;Very Sexy Prompt&lt;/a&gt;) et de nouvelles sont découvertes chaque mois. Cette technique est très utile pour le court terme car facile à implémenter et très modulaire. En revanche, elle a un défaut : elle ne tient pas sur le long terme. Il se trouve que nos amis les LLMs sont comme Leonard Shelby dans Memento, en pire. Pour ceux qui ont manqué ce film, le personnage principal a une mémoire de poisson rouge : il ne se souvient plus d&amp;rsquo;une conversation après un certain temps, dans notre cas, après une seule interaction.&lt;/p&gt;
+&lt;p&gt;Pour que notre modèle puisse tenir une conversation qui fait sens et se “souvenir” des précédentes interactions avec l’utilisateur, il faudra donc qu’à chaque message de l’utilisateur soient ajoutés les échanges précédents (de façon non perceptible). L’ajout de ces messages suit alors un système de roulement qui permet d’ajouter les derniers messages en priorité, au détriment des plus anciens, et ainsi le modèle peut se “souvenir” d’une conversation, jusqu’à un certain point…&lt;/p&gt;
+
+&lt;h2 id=&#34;memento&#34;&gt;
+  Memento
+  &lt;a href=&#34;#memento&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Dans Memento, pour pallier son manque de mémoire et se souvenir d’informations importantes, Leonard Shelby prend des photos et se tatoue ses informations. Chez OpenAI, une autre technique a été préférée : la répétition (alias “system prompt”), c&amp;rsquo;est-à-dire qu&amp;rsquo;à chaque interaction avec un LLM, en préambule, un message fixe et prédéterminé par l&amp;rsquo;utilisateur est envoyé avec ses instructions. Cela permet de rafraîchir la mémoire de notre interlocuteur durant toute la conversation et à chaque interaction, même si les anciens messages sont “oubliés”. Mais cette technique est limitée elle aussi, par la taille du contexte. Le contexte définit la longueur du texte que le modèle peut recevoir en entrée. C’est une limite définie par l&amp;rsquo;architecture du modèle ; on peut l&amp;rsquo;imaginer comme la “mémoire” du modèle, elle est fixe et a une limite. Dans notre cas, elle sera composée du “system prompt” (répété à chaque message), du nouveau message de l&amp;rsquo;utilisateur, et enfin des messages précédents de la conversation (s&amp;rsquo;il y en a). Ce qui signifie que plus notre system prompt et notre nouveau message prendront de place dans le contexte, moins notre modèle se “rappellera” des échanges précédents. Chez OpenAI, le “system prompt” est bloqué à 1500 lettres (ce qui est peu, quand on veut tirer le maximum de son poisson rouge). Avec les modèles open-source, vous pouvez organiser comme vous le souhaitez votre contexte (et donc votre “system prompt”). De plus, pour les modèles tels que Llama, Mistral, etc., le contexte peut être &lt;a href=&#34;https://arxiv.org/pdf/2309.00071.pdf&#34;&gt;adapté/augmenté&lt;/a&gt; significativement.&lt;/p&gt;
+
+&lt;h2 id=&#34;le-bureau-de-poste-ouvre-à-9h&#34;&gt;
+  Le bureau de poste ouvre à 9h.
+  &lt;a href=&#34;#le-bureau-de-poste-ouvre-%c3%a0-9h&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Alors, il existe aussi ce que je qualifierais de demi-façon, une augmentation du prompt engineering. Le RAG (&lt;a href=&#34;https://arxiv.org/pdf/2005.11401.pdf&#34;&gt;Retrieval Augmented Generation&lt;/a&gt;) permet de sauvegarder du texte dans une base de données. Cette base de données enregistre le texte sous forme de vecteurs dans un espace 2D selon la similarité du texte. Par exemple, “Le bureau de poste ouvre à 9h” sera proche (dans l&amp;rsquo;espace) du texte : “Le coiffeur de la place ouvre à 9h30”, mais sera éloigné du texte : “Il faut un bonnet de bain pour accéder à la piscine municipale” et encore plus éloigné du texte : “Hier soir, j’ai mangé des raviolis”. Cette méthode est très pratique pour faciliter le travail du prompt engineering, car elle permet de retrouver et d&amp;rsquo;ajouter au contexte l&amp;rsquo;information nécessaire facilement. Par le biais de ces similitudes, le modèle peut retrouver une information, l&amp;rsquo;ajouter au contexte et augmenter la précision de la requête de l&amp;rsquo;utilisateur. Mais, comme précédemment indiqué, elle ne résout pas le problème de contexte. In fine, le gain apporté par le RAG est ni plus, ni moins que de faciliter le rajout d’informations dans le contexte sans avoir à les retrouver et les saisir soi-même. Ainsi, si on demande au modèle à quelle heure ouvre le bureau de poste, il répondra “9h”.&lt;/p&gt;
+
+&lt;h2 id=&#34;generative-pre-trained-transformer-gpt&#34;&gt;
+  Generative Pre-trained Transformer (GPT)
+  &lt;a href=&#34;#generative-pre-trained-transformer-gpt&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Heureusement, il existe une deuxième façon de personnaliser un LLM : le “fine-tuning” (FT), méconnu du grand public mais essentiel au succès de ChatGPT et de ses successeurs (&lt;a href=&#34;https://openai.com/research/instruction-following&#34;&gt;https://openai.com/research/instruction-following&lt;/a&gt;. Pour comprendre le fine-tuning, il faut revenir à la base et comprendre comment un modèle est (pré-)entraîné (le P dans GPT : Generative Pre-trained Transformer). Pour faire simple, un programme (le Transformer) composé de multiples algorithmes s&amp;rsquo;entraîne sur un grand nombre de textes, des millions voire des milliards de lignes de textes en tout genre, souvent extraits de sites internet. &lt;a href=&#34;https://arxiv.org/pdf/2203.15556.pdf&#34;&gt;Plus ces données sont grandes, meilleure sera la performance de l&amp;rsquo;algorithme&lt;/a&gt;. L&amp;rsquo;entraînement consiste à “prédire” quelle sera la séquence dans chaque texte, en se basant seulement sur les mots précédents. Ainsi pour le texte, “Je vais chez le boulanger.”, l&amp;rsquo;entraînement se déroulera comme suit : “Je”, “Je vais”, “Je vais chez”, “Je vais chez le”, “Je vais chez le boulanger.” et à chaque essai, son objectif sera de trouver le mot suivant manquant. Lors de l&amp;rsquo;entraînement, le modèle ne va pas pouvoir absorber toutes ces millions de lignes d&amp;rsquo;un coup, alors ces textes sont découpés en morceaux. La taille de ces morceaux définira le contexte du modèle. Pour chaque morceau, le programme essaiera de “prédire” le mot suivant comme expliqué et ajustera ses “prédictions” en fonction des résultats. Une fois toutes les données passées dans le programme, on peut décider de les repasser une nouvelle fois ou bien s&amp;rsquo;arrêter. Maintenant, notre modèle est capable de “deviner” le prochain mot de manière plus ou moins effective, il nous suffit alors d&amp;rsquo;ajouter le mot deviné par le modèle au texte précédent de manière continue pour que celui-ci continue sa génération (à l&amp;rsquo;infini ?).&lt;/p&gt;
+&lt;p&gt;À ce moment, il est important de savoir qu’il ne s’agit pas seulement de découvrir le mot suivant le plus probable d’après une loi statistique, mais que le modèle “comprend” les mots précédents et le sens de la phrase, et qu’il est donc capable de s’adapter et de “prédire” le mot suivant avec justesse.&lt;/p&gt;
+
+&lt;h2 id=&#34;une-fois-notre-gpt-obtenu-comment-en-faire-un-chatgpt-&#34;&gt;
+  Une fois notre GPT obtenu comment en faire un &lt;em&gt;chat&lt;/em&gt;GPT ?
+  &lt;a href=&#34;#une-fois-notre-gpt-obtenu-comment-en-faire-un-chatgpt-&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Actuellement, notre LLM est bon pour prédire la continuité de textes sans nécessité de s’arrêter. Pour lui, une question est la continuité d’une immensité de textes et non une fin. Il faut le voir comme une machine à écrire autonome qui écrirait des morceaux d&amp;rsquo;internet dans un non-sens chaotique, parsemé de questions, de monologues et de textes en tout genre. Dans cette forme, GPT est capable de “prédire” le prochain mot, sans s’arrêter. Il pourra finir une histoire, un article, une page Wikipédia, en revanche, il ne saura pas distinguer une question d’une liste de questions et pourra donc répondre par davantage de questions.&lt;/p&gt;
+&lt;p&gt;Afin de rendre le modèle plus utilisable et plus “aligné” avec l&amp;rsquo;utilisation que l&amp;rsquo;on connaît, on va le “fine-tuner”. C’est-à-dire qu’on va le ré-entraîner, mais cette fois-ci sur des données présélectionnées et spécialisées, avec des exemples concrets et choisis de réponses que l&amp;rsquo;on souhaite obtenir de sa part. Ainsi le modèle continue son entraînement mais se spécialise ou bien apprend une façon spécifique de répondre ou d&amp;rsquo;adresser une question, et bien d’autres choses que contiendra notre jeu de données pour l&amp;rsquo;entraînement. Lors de cet entraînement, on lui apprendra des marqueurs, équivalents à notre majuscule et point, qui seront des indicateurs de début et de fin de réponse, de cette manière il apprend à générer un indicateur de fin de réponse et donc à s’arrêter.&lt;/p&gt;
+
+&lt;h2 id=&#34;la-voiture-autonome&#34;&gt;
+  La voiture autonome
+  &lt;a href=&#34;#la-voiture-autonome&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Pour illustrer, on peut faire l&amp;rsquo;analogie d&amp;rsquo;une voiture autonome : c&amp;rsquo;est comme si on avait un moteur (GPT, Llama, Mistral) auquel on ajoute un châssis, une direction, des roues, des freins, etc., afin d&amp;rsquo;en faire une voiture utilisable (ChatGPT/LLM). L&amp;rsquo;appui sur la pédale d&amp;rsquo;accélération serait son indicateur de début de génération, puis, de par sa “compréhension” qu’il est arrivé à destination, il appuierait lui-même sur les freins pour s’arrêter. Cependant, de la même façon qu’en rajoutant du poids sur notre voiture, on perd de la vitesse ; un LLM à chaque fine-tuning peut perdre des connaissances pour en apprendre de nouvelles. De plus, un moteur de 2CV ne peut pas devenir un moteur de 100CV. Et vous l&amp;rsquo;aurez compris, l&amp;rsquo;utilisateur ne fait qu&amp;rsquo;annoncer la destination (ce qui nécessite de connaître la voiture (et la route (&lt;a href=&#34;https://cims.nyu.edu/~sbowman/eightthings.pdf&#34;&gt;sandbagging&lt;/a&gt;)) pour y arriver rapidement).&lt;/p&gt;
+&lt;p&gt;Aujourd&amp;rsquo;hui, un modèle, comme une voiture, est techniquement tunable à l&amp;rsquo;infini au détriment de perdre certaines capacités en cours de route. Le fine-tuning est utilisé pour spécialiser des modèles vers des besoins spécifiques : extraction d’informations, remplissage de formulaire, role-playing, … mais aussi de manière plus générale, comme l’ajout de nouvelles langues prises en charge, initialement non parlées par le modèle, entre autres.&lt;/p&gt;
+&lt;p&gt;À l&amp;rsquo;instar du prompt engineering, le FT prend du temps et des ressources. Il peut vite devenir très coûteux si on veut ajouter de la modularité. De la même façon que lors du pré-entraînement, les résultats sont dépendants des ressources engagées. Plus de données et de ressources donneront un meilleur modèle, à condition que les données soient ciblées et de qualité. Le fine-tuning apportera de la performance et de la robustesse sur des tâches répétitives ou définies.&lt;/p&gt;
+&lt;p&gt;Depuis quelques mois, un nouvel entrant possédant le meilleur des deux mondes (faibles coûts et hautes performances) fait son entrée dans les &lt;a href=&#34;https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard&#34;&gt;classements&lt;/a&gt;. Il s&amp;rsquo;agit du merging qui vise à combiner les résultats de fine-tuning entre eux pour obtenir “une somme” des modèles sélectionnés et, bien que dépendant des FT originaux, s&amp;rsquo;avère efficace et prometteur.&lt;/p&gt;
+&lt;p&gt;Chaque méthode n&amp;rsquo;empêche pas l&amp;rsquo;autre : le prompt engineering amplifié par le RAG et combiné au fine-tuning peut faire des merveilles. Bien que parfois overkill, il est important de comprendre qui fait quoi et ainsi comprendre sur quoi agir pour obtenir le résultat souhaité. Les modèles fine-tunés offrent la possibilité de mieux contrôler le résultat en formatant le résultat et permettent d’éviter les incompréhensions.&lt;/p&gt;
+&lt;p&gt;Parfois un simple changement de destination est nécessaire, parfois c’est un changement dans le véhicule qui doit être opéré, ou bien les deux.&lt;/p&gt;
+</content>
+    </item>
+    <item>
+      <title>Very Sexy Prompt</title>
+      <link>https://teilomillet.github.io/posts/very-sexy-prompt/</link>
+      <pubDate>Sun, 18 Jun 2023 13:00:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/posts/very-sexy-prompt/</guid>
+      <description>TL;DR Il existe plusieurs techniques pour optimiser les prompts et améliorer la véracité des réponses.
+Les techniques comprennent le fine-tuning, le zero-shot learning, le few-shot learning, le chain of thought, et le RCI (Critique).
+Faire appel à un expert peut également améliorer les réponses fournies par le modèle.
+En combinant ces techniques, on peut obtenir des réponses satisfaisantes et performantes, mais il n&amp;rsquo;y a pas de prompt parfait pour toutes les demandes.</description>
+      <content>
+&lt;h1 id=&#34;tldr&#34;&gt;
+  TL;DR
+  &lt;a href=&#34;#tldr&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Il existe plusieurs techniques pour optimiser les prompts et améliorer la véracité des réponses.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Les techniques comprennent le fine-tuning, le zero-shot learning, le few-shot learning, le chain of thought, et le RCI (Critique).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Faire appel à un expert peut également améliorer les réponses fournies par le modèle.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En combinant ces techniques, on peut obtenir des réponses satisfaisantes et performantes, mais il n&amp;rsquo;y a pas de prompt parfait pour toutes les demandes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Il existe de nombreuses façons d&amp;rsquo;optimiser les prompts, que ce soit pour améliorer la véracité des réponses du chatbot ou maximiser l&amp;rsquo;utilisation des tokens. Pour la seconde partie, cela peut être réalisé en utilisant principalement le langage &lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;Markdown&lt;/a&gt; ou en demandant une réponse sous forme de points à puces (bullet points).&lt;/p&gt;
+&lt;p&gt;Pour ce qui est d’optimiser la véracité des réponses, voici quelques techniques :&lt;/p&gt;
+
+&lt;h2 id=&#34;fine-tuning-ajusté&#34;&gt;
+  Fine-tuning (Ajusté):
+  &lt;a href=&#34;#fine-tuning-ajust%c3%a9&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Entraîner un modèle sur de nouvelles données. Cela permet d&amp;rsquo;optimiser les résultats sur un sujet prédéfini, au risque de perdre en performance sur d&amp;rsquo;autres sujets. Le modèle sera plus performant dans ses réponses concernant le sujet sur lequel il a été &amp;ldquo;ajusté&amp;rdquo; (fine-tuning) grâce aux nouvelles données.&lt;/p&gt;
+&lt;p&gt;Cette étape n&amp;rsquo;est pas indispensable pour obtenir de bons résultats, en revanche elle l&amp;rsquo;est lorsque l&amp;rsquo;on souhaite obtenir des résultats quasi-parfaits sur un sujet précis. Pour effectuer cette technique, il faut dans la plupart des cas avoir accès à l&amp;rsquo;API ou au modèle directement.&lt;/p&gt;
+
+&lt;h2 id=&#34;zero-shot-learning-question-direct&#34;&gt;
+  Zero-shot Learning (Question direct):
+  &lt;a href=&#34;#zero-shot-learning-question-direct&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Il s’agit de la technique la plus simple, une question direct au chatbot.&lt;/p&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;User: Quelle est la capitale de la France ?
+System: La capitale de la France est Paris.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Cette technique atteint rapidement sa limite lorsqu’elle est posée sur des sujets plus complexe. &lt;a href=&#34;https://arxiv.org/pdf/2109.01652.pdf&#34;&gt;Le fine-tuning peux améliorer les résultats de cette technique.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;few-shot-learning-question-avec-exemples&#34;&gt;
+  Few-shot Learning (Question avec exemples):
+  &lt;a href=&#34;#few-shot-learning-question-avec-exemples&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;On ajoute des exemples lorsque l’on pose des questions au chatbot, ainsi on indique un type/format de réponse souhaité. &lt;a href=&#34;https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/#few-shot&#34;&gt;Ces exemples doivent être le plus évident possible, de qualités et compréhensibles.&lt;/a&gt; &lt;a href=&#34;https://arxiv.org/pdf/2202.12837.pdf&#34;&gt;Ils influeront grandement sur la réponse du chatbot.&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;User: 
+Q: Capitale de l&amp;#39;Allemagne ?
+R: Berlin
+Q: Capitale des Pays-Bas ?
+R: Amsterdam
+Q: Capital de la France ?
+R:
+
+Sytem: Paris&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.promptingguide.ai/techniques/fewshot&#34;&gt;Cette technique aussi connait ses limites, notamment sur des questions liées au raisonnement du chatbot.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;chain-of-thought-étape-par-étape&#34;&gt;
+  Chain of Thought (Étape par étape):
+  &lt;a href=&#34;#chain-of-thought-%c3%a9tape-par-%c3%a9tape&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Comme un être humain, un chatbot est plus enclins à faire des erreurs s’il lui est demandé de répondre spontanément à une question qui demande réflexion. En revanche, s’il réfléchit avant de répondre ce dernier augmente grandement sa performance. C’est le &lt;a href=&#34;https://arxiv.org/pdf/2201.11903.pdf&#34;&gt;Chain-of-Thought (CoT)&lt;/a&gt; , cela consiste en un few-shot Learning avec un raisonnement par étape, indiqué dans les exemples.
+&lt;a href=&#34;https://arxiv.org/pdf/2203.11171.pdf&#34;&gt;CoT est particulièrement efficace pour obtenir de meilleures réponses arithmétique ou à des problèmes de raisonnement&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;User:
+Q: S&amp;#39;il y a 3 voitures dans le parking et que 2 nouvelles voitures arrivent, combien de voiture sont dans le parking ?
+R: Il y a 3 voitures dans le parking, 2 voitures arrivent. 3 + 2 = 5 voitures. La réponse est 5.
+
+Q: Les poules de Jean pondent 16 oeufs par jour. Jean mange trois oeufs chaque matin et il fait aussi des crêpes avec quatre autres. Il vend le reste des oeufs pour 0,25€ l&amp;#39;oeuf. Combien gagne-t-il chaque jour ?
+
+System: 
+Les poules de Jean pondent 16 œufs par jour. Jean en mange 3 chaque matin et en utilise 4 pour faire des crêpes. Par conséquent, il lui reste 16 - 3 - 4 = 9 œufs qu&amp;#39;il peut vendre.
+
+Si Jean vend ses 9 œufs pour 0,25 € l&amp;#39;œuf, il gagnera 9 * 0,25 = 2,25 € chaque jour.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Il est aussi possible d’améliorer les réponses de la technique Zero-shot Learning en ajoutant à la fin de la question: “&lt;a href=&#34;https://openreview.net/pdf?id=e2TBb5y0yFf&#34;&gt;pense étape par étape&lt;/a&gt;” et ainsi faire un Zéro-shot Learning-CoT.&lt;/p&gt;
+
+&lt;h2 id=&#34;tree-of-thoughtsarbre-de-pensée&#34;&gt;
+  Tree of Thoughts(arbre de pensée):
+  &lt;a href=&#34;#tree-of-thoughtsarbre-de-pens%c3%a9e&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Comme un arbre de décision, le chatbot créer un arbre avec de multiples possibilités et choisi parmi les réponses possibles. Pour choisir, il utilise un algorithme prédéfini. Cette technique n’est pas nécessaire pour les tâches où le chatbot est deja très bon. En revanche, le &lt;a href=&#34;https://arxiv.org/pdf/2305.10601.pdf&#34;&gt;Tree of Thoughts&lt;/a&gt; (ToT) peut être utile pour réaliser des raisonnements longs et complexes, comme la résolution de certains problèmes.&lt;/p&gt;
+&lt;p&gt;L’utilisation d’&lt;a href=&#34;https://github.com/yoheinakajima/babyagi&#34;&gt;agents&lt;/a&gt; peut aussi être utile pour ce même genre de tâche (attention aux prix, car le nombre de token peut monter très rapidement).&lt;/p&gt;
+
+&lt;h2 id=&#34;rci-critique&#34;&gt;
+  RCI (Critique):
+  &lt;a href=&#34;#rci-critique&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Grâce à la “mémoire” des chatbots, il est possible de poser des questions sur de précédentes réponses et/ou d’ajouter du contexte. &lt;a href=&#34;https://arxiv.org/pdf/2303.17491.pdf&#34;&gt;RCI&lt;/a&gt; permet d’améliorer les réponses du chatbot en le faisant s’auto-critiquer et ainsi s’améliorer. Après avoir obtenu une réponse du chatbot, notre second prompt lui demandera de s’auto critiquer et de trouver les erreurs dans sa réponse. Puis à l’aide d’un 3e prompt, il faudra demander au chatbot de s’améliorer et de corriger ses erreurs, pour ainsi nous fournir le bon résultat.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;La question&lt;/li&gt;
+&lt;li&gt;L’auto-critique&lt;/li&gt;
+&lt;li&gt;La correction en tenant compte de l’auto-critique&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;lexpert&#34;&gt;
+  L’expert:
+  &lt;a href=&#34;#lexpert&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Il est connu que les Large Language Models donneront de moins bonnes réponses si vous utilisez des prompts qui implicitement indiquent que vous êtes peu qualifié et donc dans l’incapacité de dire si la réponse est juste.1 Cela s’appelle le “&lt;a href=&#34;https://arxiv.org/pdf/2212.09251.pdf&#34;&gt;sandbagging&lt;/a&gt;”.&lt;/p&gt;
+&lt;p&gt;Pour contrer cela et améliorer les réponses fournies par le LLM, il est recommandé de faire &lt;a href=&#34;https://arxiv.org/abs/2306.08997&#34;&gt;appel à un expert&lt;/a&gt;, soit en indiquant le nom/la position de l’expert en question (ex: “Tu es un C-Level en charge du backend chez Google, …” ou bien en le faisant trouver par lui même ( ex: “Donne moi une estimation éclairée des trois experts les plus aptes à résoudre cette question.”&amp;rsquo;) puis en réutilisant ces experts dans la question.
+Il convient de noter que bien que les résultats annoncés par le papier cité précédemment soient en train d&amp;rsquo;être réfutés, l&amp;rsquo;utilisation judicieuse de cette technique permet d&amp;rsquo;éviter le sandbagging et de favoriser l&amp;rsquo;amélioration du code, en particulier dans le contexte de la génération de code.&lt;/p&gt;
+&lt;p&gt;En combinant ces différentes techniques, on peut rapidement obtenir des réponses satisfaisantes et performantes. Il n’existe pas de “prompt” parfait, qui répond à toutes les demandes. Cependant, en trouvant la combinaison adéquate, il est possible d’atteindre les objectifs visés.&lt;/p&gt;
+</content>
+    </item>
+  </channel>
+</rss>

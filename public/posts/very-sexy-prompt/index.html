@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<title>Very Sexy Prompt :: Ahyo</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="TL;DR Il existe plusieurs techniques pour optimiser les prompts et améliorer la véracité des réponses.
+Les techniques comprennent le fine-tuning, le zero-shot learning, le few-shot learning, le chain of thought, et le RCI (Critique).
+Faire appel à un expert peut également améliorer les réponses fournies par le modèle.
+En combinant ces techniques, on peut obtenir des réponses satisfaisantes et performantes, mais il n&amp;rsquo;y a pas de prompt parfait pour toutes les demandes." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://teilomillet.github.io/posts/very-sexy-prompt/" />
+<meta property="og:locale" content="en" />
+<meta property="og:title" content="Very Sexy Prompt :: Ahyo" />
+<meta property="og:description" content="TL;DR Il existe plusieurs techniques pour optimiser les prompts et améliorer la véracité des réponses.
+Les techniques comprennent le fine-tuning, le zero-shot learning, le few-shot learning, le chain of thought, et le RCI (Critique).
+Faire appel à un expert peut également améliorer les réponses fournies par le modèle.
+En combinant ces techniques, on peut obtenir des réponses satisfaisantes et performantes, mais il n&amp;rsquo;y a pas de prompt parfait pour toutes les demandes." />
+  <meta property="og:type" content="article" />
+    <meta property="article:section" content="" />
+    <meta property="article:section" content="" />
+    <meta property="article:published_time" content="2023-06-18 13:00:00 &#43;0100 &#43;0100" />
+    <meta property="article:modified_time" content="2023-06-18 13:00:00 IST" />
+  <meta property="article:author" content="Ahyo" />
+<meta property="og:url" content="https://teilomillet.github.io/posts/very-sexy-prompt/" />
+<meta property="og:site_name" content="Ahyo" />
+<meta property="og:image" content="" />
+<meta property="og:image:width" content="2048" />
+<meta property="og:image:height" content="1024" />
+<link rel="shortcut icon" href="" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto+Slab:wght@300;400;500&family=Ubuntu+Mono:ital@0;1&display=swap"
+  rel="stylesheet"
+/>
+<link href="/posts/very-sexy-prompt/" rel="alternate" type="application/rss+xml" title="Ahyo" />
+<link rel="stylesheet" href="https://teilomillet.github.io/styles.29af3893b7938b7f6bf3bcbb6ce52dcdccce363e03bb52292e3943e8c96a5443.css" integrity="sha256-Ka84k7eTi39r87y7bOUtzczONj4Du1IpLjlD6MlqVEM=" />
+</head>
+
+  <body>
+    <div class="theme-container">
+      <div class="container">
+        <header class="site-header">
+<nav class="navbar">
+  <div class="navbar__first">
+    <ul class="navbar__list borders">
+      <li><a href="https://teilomillet.github.io/">Home</a></li>
+      <li>
+        <button class="theme-toggle transparent"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+</button>
+      </li>
+    </ul>
+  </div>
+  <div class="navbar__separator"></div>
+</nav>
+</header>
+        <main class="site-main"><article class="post">
+    <header class="post-header">
+        <h1 class="post-title"><a href="https://teilomillet.github.io/posts/very-sexy-prompt/">Very Sexy Prompt</a></h1>
+        <address class="post-meta">
+            <time pubdate datetime="2023-06-18 13:00:00 IST">
+              Published on
+              2023-06-18 13:00:00 IST
+            </time>
+            <time pubdate datetime="2023-06-18 13:00:00 IST"> last modified 2023-06-18 13:00:00 IST. </time>
+        </address>
+        <p class="post-tags">Tags:&nbsp;#<a href="https://teilomillet.github.io/tags/prompt/">prompt</a>&nbsp;#<a href="https://teilomillet.github.io/tags/prompt-engineering/">prompt engineering</a>&nbsp;#<a href="https://teilomillet.github.io/tags/chatgpt/">chatgpt</a>&nbsp;#<a href="https://teilomillet.github.io/tags/bard/">bard</a>&nbsp;#<a href="https://teilomillet.github.io/tags/cot/">CoT</a>&nbsp;</p>
+    </header>
+      <div class="post-content">
+        
+<h1 id="tldr">
+  TL;DR
+  <a href="#tldr" class="hanchor" ariaLabel="Anchor"></a>
+</h1>
+<ul>
+<li>
+<p>Il existe plusieurs techniques pour optimiser les prompts et améliorer la véracité des réponses.</p>
+</li>
+<li>
+<p>Les techniques comprennent le fine-tuning, le zero-shot learning, le few-shot learning, le chain of thought, et le RCI (Critique).</p>
+</li>
+<li>
+<p>Faire appel à un expert peut également améliorer les réponses fournies par le modèle.</p>
+</li>
+<li>
+<p>En combinant ces techniques, on peut obtenir des réponses satisfaisantes et performantes, mais il n&rsquo;y a pas de prompt parfait pour toutes les demandes.</p>
+</li>
+</ul>
+<p>Il existe de nombreuses façons d&rsquo;optimiser les prompts, que ce soit pour améliorer la véracité des réponses du chatbot ou maximiser l&rsquo;utilisation des tokens. Pour la seconde partie, cela peut être réalisé en utilisant principalement le langage <a href="https://www.markdownguide.org/">Markdown</a> ou en demandant une réponse sous forme de points à puces (bullet points).</p>
+<p>Pour ce qui est d’optimiser la véracité des réponses, voici quelques techniques :</p>
+
+<h2 id="fine-tuning-ajusté">
+  Fine-tuning (Ajusté):
+  <a href="#fine-tuning-ajust%c3%a9" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>Entraîner un modèle sur de nouvelles données. Cela permet d&rsquo;optimiser les résultats sur un sujet prédéfini, au risque de perdre en performance sur d&rsquo;autres sujets. Le modèle sera plus performant dans ses réponses concernant le sujet sur lequel il a été &ldquo;ajusté&rdquo; (fine-tuning) grâce aux nouvelles données.</p>
+<p>Cette étape n&rsquo;est pas indispensable pour obtenir de bons résultats, en revanche elle l&rsquo;est lorsque l&rsquo;on souhaite obtenir des résultats quasi-parfaits sur un sujet précis. Pour effectuer cette technique, il faut dans la plupart des cas avoir accès à l&rsquo;API ou au modèle directement.</p>
+
+<h2 id="zero-shot-learning-question-direct">
+  Zero-shot Learning (Question direct):
+  <a href="#zero-shot-learning-question-direct" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>Il s’agit de la technique la plus simple, une question direct au chatbot.</p>
+
+<div class="highlight-wrapper">
+  <div class="highlight-toolbar">
+    <span class="item">
+      <span class="label">Lang:</span>
+      <span class="name"></span>
+    </span>
+
+
+    <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
+  </div><pre tabindex="0"><code>User: Quelle est la capitale de la France ?
+System: La capitale de la France est Paris.</code></pre></div>
+<p>Cette technique atteint rapidement sa limite lorsqu’elle est posée sur des sujets plus complexe. <a href="https://arxiv.org/pdf/2109.01652.pdf">Le fine-tuning peux améliorer les résultats de cette technique.</a></p>
+
+<h2 id="few-shot-learning-question-avec-exemples">
+  Few-shot Learning (Question avec exemples):
+  <a href="#few-shot-learning-question-avec-exemples" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>On ajoute des exemples lorsque l’on pose des questions au chatbot, ainsi on indique un type/format de réponse souhaité. <a href="https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/#few-shot">Ces exemples doivent être le plus évident possible, de qualités et compréhensibles.</a> <a href="https://arxiv.org/pdf/2202.12837.pdf">Ils influeront grandement sur la réponse du chatbot.</a></p>
+
+<div class="highlight-wrapper">
+  <div class="highlight-toolbar">
+    <span class="item">
+      <span class="label">Lang:</span>
+      <span class="name"></span>
+    </span>
+
+
+    <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
+  </div><pre tabindex="0"><code>User: 
+Q: Capitale de l&#39;Allemagne ?
+R: Berlin
+Q: Capitale des Pays-Bas ?
+R: Amsterdam
+Q: Capital de la France ?
+R:
+
+Sytem: Paris</code></pre></div>
+<p><a href="https://www.promptingguide.ai/techniques/fewshot">Cette technique aussi connait ses limites, notamment sur des questions liées au raisonnement du chatbot.</a></p>
+
+<h2 id="chain-of-thought-étape-par-étape">
+  Chain of Thought (Étape par étape):
+  <a href="#chain-of-thought-%c3%a9tape-par-%c3%a9tape" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>Comme un être humain, un chatbot est plus enclins à faire des erreurs s’il lui est demandé de répondre spontanément à une question qui demande réflexion. En revanche, s’il réfléchit avant de répondre ce dernier augmente grandement sa performance. C’est le <a href="https://arxiv.org/pdf/2201.11903.pdf">Chain-of-Thought (CoT)</a> , cela consiste en un few-shot Learning avec un raisonnement par étape, indiqué dans les exemples.
+<a href="https://arxiv.org/pdf/2203.11171.pdf">CoT est particulièrement efficace pour obtenir de meilleures réponses arithmétique ou à des problèmes de raisonnement</a>.</p>
+
+<div class="highlight-wrapper">
+  <div class="highlight-toolbar">
+    <span class="item">
+      <span class="label">Lang:</span>
+      <span class="name"></span>
+    </span>
+
+
+    <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
+  </div><pre tabindex="0"><code>User:
+Q: S&#39;il y a 3 voitures dans le parking et que 2 nouvelles voitures arrivent, combien de voiture sont dans le parking ?
+R: Il y a 3 voitures dans le parking, 2 voitures arrivent. 3 + 2 = 5 voitures. La réponse est 5.
+
+Q: Les poules de Jean pondent 16 oeufs par jour. Jean mange trois oeufs chaque matin et il fait aussi des crêpes avec quatre autres. Il vend le reste des oeufs pour 0,25€ l&#39;oeuf. Combien gagne-t-il chaque jour ?
+
+System: 
+Les poules de Jean pondent 16 œufs par jour. Jean en mange 3 chaque matin et en utilise 4 pour faire des crêpes. Par conséquent, il lui reste 16 - 3 - 4 = 9 œufs qu&#39;il peut vendre.
+
+Si Jean vend ses 9 œufs pour 0,25 € l&#39;œuf, il gagnera 9 * 0,25 = 2,25 € chaque jour.</code></pre></div>
+<p>Il est aussi possible d’améliorer les réponses de la technique Zero-shot Learning en ajoutant à la fin de la question: “<a href="https://openreview.net/pdf?id=e2TBb5y0yFf">pense étape par étape</a>” et ainsi faire un Zéro-shot Learning-CoT.</p>
+
+<h2 id="tree-of-thoughtsarbre-de-pensée">
+  Tree of Thoughts(arbre de pensée):
+  <a href="#tree-of-thoughtsarbre-de-pens%c3%a9e" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>Comme un arbre de décision, le chatbot créer un arbre avec de multiples possibilités et choisi parmi les réponses possibles. Pour choisir, il utilise un algorithme prédéfini. Cette technique n’est pas nécessaire pour les tâches où le chatbot est deja très bon. En revanche, le <a href="https://arxiv.org/pdf/2305.10601.pdf">Tree of Thoughts</a> (ToT) peut être utile pour réaliser des raisonnements longs et complexes, comme la résolution de certains problèmes.</p>
+<p>L’utilisation d’<a href="https://github.com/yoheinakajima/babyagi">agents</a> peut aussi être utile pour ce même genre de tâche (attention aux prix, car le nombre de token peut monter très rapidement).</p>
+
+<h2 id="rci-critique">
+  RCI (Critique):
+  <a href="#rci-critique" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>Grâce à la “mémoire” des chatbots, il est possible de poser des questions sur de précédentes réponses et/ou d’ajouter du contexte. <a href="https://arxiv.org/pdf/2303.17491.pdf">RCI</a> permet d’améliorer les réponses du chatbot en le faisant s’auto-critiquer et ainsi s’améliorer. Après avoir obtenu une réponse du chatbot, notre second prompt lui demandera de s’auto critiquer et de trouver les erreurs dans sa réponse. Puis à l’aide d’un 3e prompt, il faudra demander au chatbot de s’améliorer et de corriger ses erreurs, pour ainsi nous fournir le bon résultat.</p>
+<ol>
+<li>La question</li>
+<li>L’auto-critique</li>
+<li>La correction en tenant compte de l’auto-critique</li>
+</ol>
+
+<h2 id="lexpert">
+  L’expert:
+  <a href="#lexpert" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>Il est connu que les Large Language Models donneront de moins bonnes réponses si vous utilisez des prompts qui implicitement indiquent que vous êtes peu qualifié et donc dans l’incapacité de dire si la réponse est juste.1 Cela s’appelle le “<a href="https://arxiv.org/pdf/2212.09251.pdf">sandbagging</a>”.</p>
+<p>Pour contrer cela et améliorer les réponses fournies par le LLM, il est recommandé de faire <a href="https://arxiv.org/abs/2306.08997">appel à un expert</a>, soit en indiquant le nom/la position de l’expert en question (ex: “Tu es un C-Level en charge du backend chez Google, …” ou bien en le faisant trouver par lui même ( ex: “Donne moi une estimation éclairée des trois experts les plus aptes à résoudre cette question.”&rsquo;) puis en réutilisant ces experts dans la question.
+Il convient de noter que bien que les résultats annoncés par le papier cité précédemment soient en train d&rsquo;être réfutés, l&rsquo;utilisation judicieuse de cette technique permet d&rsquo;éviter le sandbagging et de favoriser l&rsquo;amélioration du code, en particulier dans le contexte de la génération de code.</p>
+<p>En combinant ces différentes techniques, on peut rapidement obtenir des réponses satisfaisantes et performantes. Il n’existe pas de “prompt” parfait, qui répond à toutes les demandes. Cependant, en trouvant la combinaison adéquate, il est possible d’atteindre les objectifs visés.</p>
+
+      </div>
+
+
+    <footer class="post-footer"><div class="pagination">
+    <div class="pagination-title">
+      <span class="pagination-title-h">Read other posts</span>
+      <hr />
+    </div>
+    <div class="buttons fill">
+        <a href="https://teilomillet.github.io/posts/pimp-my-llama/" class="button right">
+          <span class="label">Pimp My Llama</span>
+          <span class="icon right">&rArr;</span>
+        </a>
+    </div>
+  </div>
+
+    </footer>
+  </article>
+        </main>
+        <footer class="site-footer">
+<p class="buildinfo">
+  <time datetime="2024-01-16 15:55:51 IST">Site built on: 2024-01-16 15:55:51 IST</time>
+</p>
+<div class="copyright">
+  <p></p>
+  <nav class="navbar">
+    <ul class="navbar__list">
+      <li><a href="https://teilomillet.github.io/posts/index.xml">RSS</a></li>
+      <li><a href="https://teilomillet.github.io/sitemap.xml">Sitemap</a></li>
+    </ul>
+  </nav>
+</div>
+<p class="themeinfo">Powered by <a href="https://gohugo.io">Hugo</a>, using theme <a href="https://manid2.github.io/hugo-xterm/">Hugo Xterm</a>.</p>
+</footer>
+      </div>
+    </div><script type="text/javascript" src="/bundle.min.js"></script>
+</body>
+</html>

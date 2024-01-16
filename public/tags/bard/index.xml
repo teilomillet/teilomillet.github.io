@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bard on Ahyo</title>
+    <link>https://teilomillet.github.io/tags/bard/</link>
+    <description>Recent content in bard on Ahyo</description>
+    <generator>Hugo -- gohugo.io</generator>
+      <language>fr-fr</language>
+      <lastBuildDate>Sun, 18 Jun 2023 13:00:00 +0100</lastBuildDate><atom:link href="https://teilomillet.github.io/tags/bard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Very Sexy Prompt</title>
+      <link>https://teilomillet.github.io/posts/very-sexy-prompt/</link>
+      <pubDate>Sun, 18 Jun 2023 13:00:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/posts/very-sexy-prompt/</guid>
+      <description>TL;DR Il existe plusieurs techniques pour optimiser les prompts et améliorer la véracité des réponses.
+Les techniques comprennent le fine-tuning, le zero-shot learning, le few-shot learning, le chain of thought, et le RCI (Critique).
+Faire appel à un expert peut également améliorer les réponses fournies par le modèle.
+En combinant ces techniques, on peut obtenir des réponses satisfaisantes et performantes, mais il n&amp;rsquo;y a pas de prompt parfait pour toutes les demandes.</description>
+      <content>
+&lt;h1 id=&#34;tldr&#34;&gt;
+  TL;DR
+  &lt;a href=&#34;#tldr&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Il existe plusieurs techniques pour optimiser les prompts et améliorer la véracité des réponses.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Les techniques comprennent le fine-tuning, le zero-shot learning, le few-shot learning, le chain of thought, et le RCI (Critique).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Faire appel à un expert peut également améliorer les réponses fournies par le modèle.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En combinant ces techniques, on peut obtenir des réponses satisfaisantes et performantes, mais il n&amp;rsquo;y a pas de prompt parfait pour toutes les demandes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Il existe de nombreuses façons d&amp;rsquo;optimiser les prompts, que ce soit pour améliorer la véracité des réponses du chatbot ou maximiser l&amp;rsquo;utilisation des tokens. Pour la seconde partie, cela peut être réalisé en utilisant principalement le langage &lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;Markdown&lt;/a&gt; ou en demandant une réponse sous forme de points à puces (bullet points).&lt;/p&gt;
+&lt;p&gt;Pour ce qui est d’optimiser la véracité des réponses, voici quelques techniques :&lt;/p&gt;
+
+&lt;h2 id=&#34;fine-tuning-ajusté&#34;&gt;
+  Fine-tuning (Ajusté):
+  &lt;a href=&#34;#fine-tuning-ajust%c3%a9&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Entraîner un modèle sur de nouvelles données. Cela permet d&amp;rsquo;optimiser les résultats sur un sujet prédéfini, au risque de perdre en performance sur d&amp;rsquo;autres sujets. Le modèle sera plus performant dans ses réponses concernant le sujet sur lequel il a été &amp;ldquo;ajusté&amp;rdquo; (fine-tuning) grâce aux nouvelles données.&lt;/p&gt;
+&lt;p&gt;Cette étape n&amp;rsquo;est pas indispensable pour obtenir de bons résultats, en revanche elle l&amp;rsquo;est lorsque l&amp;rsquo;on souhaite obtenir des résultats quasi-parfaits sur un sujet précis. Pour effectuer cette technique, il faut dans la plupart des cas avoir accès à l&amp;rsquo;API ou au modèle directement.&lt;/p&gt;
+
+&lt;h2 id=&#34;zero-shot-learning-question-direct&#34;&gt;
+  Zero-shot Learning (Question direct):
+  &lt;a href=&#34;#zero-shot-learning-question-direct&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Il s’agit de la technique la plus simple, une question direct au chatbot.&lt;/p&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;User: Quelle est la capitale de la France ?
+System: La capitale de la France est Paris.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Cette technique atteint rapidement sa limite lorsqu’elle est posée sur des sujets plus complexe. &lt;a href=&#34;https://arxiv.org/pdf/2109.01652.pdf&#34;&gt;Le fine-tuning peux améliorer les résultats de cette technique.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;few-shot-learning-question-avec-exemples&#34;&gt;
+  Few-shot Learning (Question avec exemples):
+  &lt;a href=&#34;#few-shot-learning-question-avec-exemples&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;On ajoute des exemples lorsque l’on pose des questions au chatbot, ainsi on indique un type/format de réponse souhaité. &lt;a href=&#34;https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/#few-shot&#34;&gt;Ces exemples doivent être le plus évident possible, de qualités et compréhensibles.&lt;/a&gt; &lt;a href=&#34;https://arxiv.org/pdf/2202.12837.pdf&#34;&gt;Ils influeront grandement sur la réponse du chatbot.&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;User: 
+Q: Capitale de l&amp;#39;Allemagne ?
+R: Berlin
+Q: Capitale des Pays-Bas ?
+R: Amsterdam
+Q: Capital de la France ?
+R:
+
+Sytem: Paris&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.promptingguide.ai/techniques/fewshot&#34;&gt;Cette technique aussi connait ses limites, notamment sur des questions liées au raisonnement du chatbot.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;chain-of-thought-étape-par-étape&#34;&gt;
+  Chain of Thought (Étape par étape):
+  &lt;a href=&#34;#chain-of-thought-%c3%a9tape-par-%c3%a9tape&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Comme un être humain, un chatbot est plus enclins à faire des erreurs s’il lui est demandé de répondre spontanément à une question qui demande réflexion. En revanche, s’il réfléchit avant de répondre ce dernier augmente grandement sa performance. C’est le &lt;a href=&#34;https://arxiv.org/pdf/2201.11903.pdf&#34;&gt;Chain-of-Thought (CoT)&lt;/a&gt; , cela consiste en un few-shot Learning avec un raisonnement par étape, indiqué dans les exemples.
+&lt;a href=&#34;https://arxiv.org/pdf/2203.11171.pdf&#34;&gt;CoT est particulièrement efficace pour obtenir de meilleures réponses arithmétique ou à des problèmes de raisonnement&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;User:
+Q: S&amp;#39;il y a 3 voitures dans le parking et que 2 nouvelles voitures arrivent, combien de voiture sont dans le parking ?
+R: Il y a 3 voitures dans le parking, 2 voitures arrivent. 3 + 2 = 5 voitures. La réponse est 5.
+
+Q: Les poules de Jean pondent 16 oeufs par jour. Jean mange trois oeufs chaque matin et il fait aussi des crêpes avec quatre autres. Il vend le reste des oeufs pour 0,25€ l&amp;#39;oeuf. Combien gagne-t-il chaque jour ?
+
+System: 
+Les poules de Jean pondent 16 œufs par jour. Jean en mange 3 chaque matin et en utilise 4 pour faire des crêpes. Par conséquent, il lui reste 16 - 3 - 4 = 9 œufs qu&amp;#39;il peut vendre.
+
+Si Jean vend ses 9 œufs pour 0,25 € l&amp;#39;œuf, il gagnera 9 * 0,25 = 2,25 € chaque jour.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Il est aussi possible d’améliorer les réponses de la technique Zero-shot Learning en ajoutant à la fin de la question: “&lt;a href=&#34;https://openreview.net/pdf?id=e2TBb5y0yFf&#34;&gt;pense étape par étape&lt;/a&gt;” et ainsi faire un Zéro-shot Learning-CoT.&lt;/p&gt;
+
+&lt;h2 id=&#34;tree-of-thoughtsarbre-de-pensée&#34;&gt;
+  Tree of Thoughts(arbre de pensée):
+  &lt;a href=&#34;#tree-of-thoughtsarbre-de-pens%c3%a9e&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Comme un arbre de décision, le chatbot créer un arbre avec de multiples possibilités et choisi parmi les réponses possibles. Pour choisir, il utilise un algorithme prédéfini. Cette technique n’est pas nécessaire pour les tâches où le chatbot est deja très bon. En revanche, le &lt;a href=&#34;https://arxiv.org/pdf/2305.10601.pdf&#34;&gt;Tree of Thoughts&lt;/a&gt; (ToT) peut être utile pour réaliser des raisonnements longs et complexes, comme la résolution de certains problèmes.&lt;/p&gt;
+&lt;p&gt;L’utilisation d’&lt;a href=&#34;https://github.com/yoheinakajima/babyagi&#34;&gt;agents&lt;/a&gt; peut aussi être utile pour ce même genre de tâche (attention aux prix, car le nombre de token peut monter très rapidement).&lt;/p&gt;
+
+&lt;h2 id=&#34;rci-critique&#34;&gt;
+  RCI (Critique):
+  &lt;a href=&#34;#rci-critique&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Grâce à la “mémoire” des chatbots, il est possible de poser des questions sur de précédentes réponses et/ou d’ajouter du contexte. &lt;a href=&#34;https://arxiv.org/pdf/2303.17491.pdf&#34;&gt;RCI&lt;/a&gt; permet d’améliorer les réponses du chatbot en le faisant s’auto-critiquer et ainsi s’améliorer. Après avoir obtenu une réponse du chatbot, notre second prompt lui demandera de s’auto critiquer et de trouver les erreurs dans sa réponse. Puis à l’aide d’un 3e prompt, il faudra demander au chatbot de s’améliorer et de corriger ses erreurs, pour ainsi nous fournir le bon résultat.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;La question&lt;/li&gt;
+&lt;li&gt;L’auto-critique&lt;/li&gt;
+&lt;li&gt;La correction en tenant compte de l’auto-critique&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;lexpert&#34;&gt;
+  L’expert:
+  &lt;a href=&#34;#lexpert&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Il est connu que les Large Language Models donneront de moins bonnes réponses si vous utilisez des prompts qui implicitement indiquent que vous êtes peu qualifié et donc dans l’incapacité de dire si la réponse est juste.1 Cela s’appelle le “&lt;a href=&#34;https://arxiv.org/pdf/2212.09251.pdf&#34;&gt;sandbagging&lt;/a&gt;”.&lt;/p&gt;
+&lt;p&gt;Pour contrer cela et améliorer les réponses fournies par le LLM, il est recommandé de faire &lt;a href=&#34;https://arxiv.org/abs/2306.08997&#34;&gt;appel à un expert&lt;/a&gt;, soit en indiquant le nom/la position de l’expert en question (ex: “Tu es un C-Level en charge du backend chez Google, …” ou bien en le faisant trouver par lui même ( ex: “Donne moi une estimation éclairée des trois experts les plus aptes à résoudre cette question.”&amp;rsquo;) puis en réutilisant ces experts dans la question.
+Il convient de noter que bien que les résultats annoncés par le papier cité précédemment soient en train d&amp;rsquo;être réfutés, l&amp;rsquo;utilisation judicieuse de cette technique permet d&amp;rsquo;éviter le sandbagging et de favoriser l&amp;rsquo;amélioration du code, en particulier dans le contexte de la génération de code.&lt;/p&gt;
+&lt;p&gt;En combinant ces différentes techniques, on peut rapidement obtenir des réponses satisfaisantes et performantes. Il n’existe pas de “prompt” parfait, qui répond à toutes les demandes. Cependant, en trouvant la combinaison adéquate, il est possible d’atteindre les objectifs visés.&lt;/p&gt;
+</content>
+    </item>
+  </channel>
+</rss>

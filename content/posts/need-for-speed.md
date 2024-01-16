@@ -4,7 +4,7 @@ description = "Jeux sur mesure"
 date = "2024-01-16T11:21:00+01:00"
 tags = ["anthropic", "chatgpt", "fine-tuning", "finetuning", "llama2", "mistral", "merging"]
 categories = ["", ""]
-draft = true
+draft = false
 +++
 
 Un des jeux vidéo qui a marqué mon enfance fut "Need for Speed", plus particulièrement "[Need for Speed: Underground (2)](https://www.youtube.com/watch?v=Fen3wrNr3yk)". Un jeu de voiture tuning (peu réaliste) des années 2000, dont le but était simple : gagner toutes les courses. Le jeu proposait différentes sortes de courses : des épreuves en ligne droite (drag) où la vitesse maximale était déterminante, des compétitions de dérapage (drift), des courses sprints visant à rester en tête et éviter l'élimination, ainsi que les traditionnelles courses de circuit, rappelant les scènes de rue (à la [Fast & Furious](https://www.youtube.com/watch?v=rMTBhu17GIE)). Lorsqu'une course était remportée, on gagnait soit de l'argent, soit/et une voiture. L'argent permettait de modifier notre voiture selon nos préférences : ajouter ou remplacer des pièces, changer et repeindre la carrosserie, ajouter un aileron ou des néons, etc. On pouvait installer des kits (préétablis) ou bien construire la voiture selon notre choix de pièces détachées.

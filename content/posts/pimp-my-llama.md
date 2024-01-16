@@ -4,7 +4,7 @@ description = "Du développement à la personnalisation d'un modèle de langage.
 date = "2024-01-08T13:00:00+01:00"
 tags = ["chatGPT", "prompt", "RAG", "llmops", "prompt engineering", "openai", "sandbagging", "finetuning", "merging"]
 categories = ["", ""]
-draft = true
+draft = false
 +++
 
 Il y a 2,5 façons prédominantes de personnaliser un LLM (Large Language Model).

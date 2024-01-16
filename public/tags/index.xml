@@ -5,6 +5,142 @@
     <link>https://teilomillet.github.io/tags/</link>
     <description>Recent content in Tags on Ahyo</description>
     <generator>Hugo -- gohugo.io</generator>
-      <language>fr-fr</language><atom:link href="https://teilomillet.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+      <language>fr-fr</language>
+      <lastBuildDate>Tue, 16 Jan 2024 11:21:00 +0100</lastBuildDate><atom:link href="https://teilomillet.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>anthropic</title>
+      <link>https://teilomillet.github.io/tags/anthropic/</link>
+      <pubDate>Tue, 16 Jan 2024 11:21:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/anthropic/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>chatgpt</title>
+      <link>https://teilomillet.github.io/tags/chatgpt/</link>
+      <pubDate>Tue, 16 Jan 2024 11:21:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/chatgpt/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>fine-tuning</title>
+      <link>https://teilomillet.github.io/tags/fine-tuning/</link>
+      <pubDate>Tue, 16 Jan 2024 11:21:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/fine-tuning/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>finetuning</title>
+      <link>https://teilomillet.github.io/tags/finetuning/</link>
+      <pubDate>Tue, 16 Jan 2024 11:21:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/finetuning/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>llama2</title>
+      <link>https://teilomillet.github.io/tags/llama2/</link>
+      <pubDate>Tue, 16 Jan 2024 11:21:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/llama2/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>merging</title>
+      <link>https://teilomillet.github.io/tags/merging/</link>
+      <pubDate>Tue, 16 Jan 2024 11:21:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/merging/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>mistral</title>
+      <link>https://teilomillet.github.io/tags/mistral/</link>
+      <pubDate>Tue, 16 Jan 2024 11:21:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/mistral/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>llmops</title>
+      <link>https://teilomillet.github.io/tags/llmops/</link>
+      <pubDate>Mon, 08 Jan 2024 13:00:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/llmops/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>openai</title>
+      <link>https://teilomillet.github.io/tags/openai/</link>
+      <pubDate>Mon, 08 Jan 2024 13:00:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/openai/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>prompt</title>
+      <link>https://teilomillet.github.io/tags/prompt/</link>
+      <pubDate>Mon, 08 Jan 2024 13:00:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/prompt/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>prompt engineering</title>
+      <link>https://teilomillet.github.io/tags/prompt-engineering/</link>
+      <pubDate>Mon, 08 Jan 2024 13:00:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/prompt-engineering/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>RAG</title>
+      <link>https://teilomillet.github.io/tags/rag/</link>
+      <pubDate>Mon, 08 Jan 2024 13:00:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/rag/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>sandbagging</title>
+      <link>https://teilomillet.github.io/tags/sandbagging/</link>
+      <pubDate>Mon, 08 Jan 2024 13:00:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/sandbagging/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>bard</title>
+      <link>https://teilomillet.github.io/tags/bard/</link>
+      <pubDate>Sun, 18 Jun 2023 13:00:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/bard/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    <item>
+      <title>CoT</title>
+      <link>https://teilomillet.github.io/tags/cot/</link>
+      <pubDate>Sun, 18 Jun 2023 13:00:00 +0100</pubDate>
+
+      <guid>https://teilomillet.github.io/tags/cot/</guid>
+      <description></description>
+      <content></content>
+    </item>
   </channel>
 </rss>
