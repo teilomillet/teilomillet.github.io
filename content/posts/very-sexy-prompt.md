@@ -29,7 +29,7 @@ Cette étape n'est pas indispensable pour obtenir de bons résultats, en revanch
 ## Zero-shot Learning (Question direct):
 Il s’agit de la technique la plus simple, une question direct au chatbot.
 
-```
+```bash
 User: Quelle est la capitale de la France ?
 System: La capitale de la France est Paris.
 ```
@@ -37,7 +37,7 @@ Cette technique atteint rapidement sa limite lorsqu’elle est posée sur des su
 
 ## Few-shot Learning (Question avec exemples):
 On ajoute des exemples lorsque l’on pose des questions au chatbot, ainsi on indique un type/format de réponse souhaité. [Ces exemples doivent être le plus évident possible, de qualités et compréhensibles.](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/#few-shot) [Ils influeront grandement sur la réponse du chatbot.](https://arxiv.org/pdf/2202.12837.pdf)
-```
+```bash
 User: 
 Q: Capitale de l'Allemagne ?
 R: Berlin
@@ -54,7 +54,7 @@ Sytem: Paris
 ## Chain of Thought (Étape par étape):
 Comme un être humain, un chatbot est plus enclins à faire des erreurs s’il lui est demandé de répondre spontanément à une question qui demande réflexion. En revanche, s’il réfléchit avant de répondre ce dernier augmente grandement sa performance. C’est le [Chain-of-Thought (CoT)](https://arxiv.org/pdf/2201.11903.pdf) , cela consiste en un few-shot Learning avec un raisonnement par étape, indiqué dans les exemples.
 [CoT est particulièrement efficace pour obtenir de meilleures réponses arithmétique ou à des problèmes de raisonnement](https://arxiv.org/pdf/2203.11171.pdf).
-```
+```bash
 User:
 Q: S'il y a 3 voitures dans le parking et que 2 nouvelles voitures arrivent, combien de voiture sont dans le parking ?
 R: Il y a 3 voitures dans le parking, 2 voitures arrivent. 3 + 2 = 5 voitures. La réponse est 5.
