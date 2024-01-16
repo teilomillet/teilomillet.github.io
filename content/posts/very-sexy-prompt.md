@@ -1,6 +1,6 @@
 +++
 title = "Very Sexy Prompt"
-description = ""
+description = "Ou comment poser des questions à un chatbot. (Prompt Engineering)"
 date = "2023-06-18T13:00:00+01:00"
 tags = ["prompt", "prompt engineering", "chatgpt", "bard", "CoT", ]
 categories = ["", ""]
