@@ -5,7 +5,7 @@ theme = 'hugo-dead-simple'
 
 [params]
 author = "Teïlo Millet"
-description = "Meta-curious layman, interested in the intersection of technology and philosophy."
+description = "Meta-curious layman"
 
 # Social links
 github = "teilomillet"
@@ -15,10 +15,6 @@ email = "teilomillet@gmail.com"
 
 [menu]
 [[menu.main]]
-name = "Home"
+name = "Posts"
 url = "/"
 weight = 1
-[[menu.main]]
-name = "Posts"
-url = "/posts/"
-weight = 2
