@@ -1,0 +1,24 @@
+baseURL = 'https://teilomillet.github.io/'
+languageCode = 'en-us'
+title = "teilomillet"
+theme = 'hugo-dead-simple'
+
+[params]
+author = "Teïlo Millet"
+description = "Meta-curious layman, interested in the intersection of technology and philosophy."
+
+# Social links
+github = "teilomillet"
+twitter = "teilomillet"
+linkedin = "teilomillet"
+email = "teilomillet@gmail.com"
+
+[menu]
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 2
