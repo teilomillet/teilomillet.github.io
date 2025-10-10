@@ -4,7 +4,7 @@ draft = false
 title = 'Quid est'
 +++
 
-Commencer par la fin et tracer les chemins qui y mènent. Le but final est toujours la raison. Je philosophe mais c'est sûrement dû au fait qu'en ce moment j'écris bien plus qu'avant. Quasiment chaque jour je suis dans l'écriture, dans la réflexion de comment écrire mieux. Les cheminements tortueux qui s'effacent sous mes pas deviennent difficiles à suivre.
+Commencer par la fin et tracer les chemins qui y mènent. Le but final est toujours la raison. Je philosophe mais c'est sûrement dû au fait qu'en ce moment j'écris bien plus qu'avant. Quasiment chaque jour je suis dans l'écriture, dans la réflexion de comment écrire mieux. Les cheminements tortueux qui s'effacent sous mes mots deviennent difficiles à suivre.
 
 Mais je pense avoir trouvé une technique particulière, un peu troublante mais singulière : commencer par la fin. Notre, ou plutôt mon esprit commence souvent par la gauche pour aller vers la droite. Il va du début vers la fin. Mais à y réfléchir, je me rends compte qu'en fait, inconsciemment je commence toujours par la fin.
 
