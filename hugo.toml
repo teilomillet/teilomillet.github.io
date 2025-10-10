@@ -1,6 +1,6 @@
-baseURL = 'https://teilomillet.github.io/'
+baseURL = 'https://teilo.xyz'
 languageCode = 'en-us'
-title = "teilomillet"
+title = "teilo"
 theme = 'hugo-dead-simple'
 
 [params]
